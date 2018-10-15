@@ -81,7 +81,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CalculatorFeature1.feature</DependentUpon>
     </Compile>
-    <Compile Include="CalculatorSteps.cs" />
+    <Compile Include="Steps\CalculatorSteps.cs" />
     <Compile Include="Features\CalculatorFeature2.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -110,9 +110,7 @@
       <Name>CalculatorApplication</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Steps\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\SpecFlow.2.4.0\build\SpecFlow.targets" Condition="Exists('..\packages\SpecFlow.2.4.0\build\SpecFlow.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
