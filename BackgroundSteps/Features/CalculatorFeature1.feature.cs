@@ -121,12 +121,12 @@ this.ScenarioInitialize(scenarioInfo);
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Divide two numbers")]
         [NUnit.Framework.CategoryAttribute("tc:")]
-        [NUnit.Framework.CategoryAttribute("3003")]
+        [NUnit.Framework.CategoryAttribute("3004")]
         public virtual void DivideTwoNumbers()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Divide two numbers", null, new string[] {
                         "tc:",
-                        "3003"});
+                        "3004"});
 #line 20
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
