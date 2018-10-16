@@ -16,7 +16,7 @@ Scenario: Multiply two numbers
        And I have also entered 2 into the calculator
        When I press multiply
        Then the result should be 6 on the screen
-@tc: 3003
+@tc: 3004
 Scenario: Divide two numbers
        Given I have entered 24 into the calculator
        And I have also entered 6 into the calculator
