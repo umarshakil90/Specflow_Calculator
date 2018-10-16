@@ -2,7 +2,7 @@
 using NUnit.Framework;
 using CalculatorApplication;
 
-namespace BackgroundSteps
+namespace BackgroundSteps.Steps
 {
 
     [Binding]
