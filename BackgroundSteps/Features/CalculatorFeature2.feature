@@ -14,7 +14,7 @@ Scenario Outline: Remembered value goes into to add
 
 	   Examples: 
 	   | Number   | Result |
-	   | 3        | 33     |
+	   | 3        | 35     |
 	   | 0        | 30     |
 	   | -10      | 20     |
 	   | -50      | -20    |

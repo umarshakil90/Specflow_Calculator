@@ -85,7 +85,7 @@ namespace BackgroundSteps.Features
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Remembered value goes into to add")]
-        [NUnit.Framework.TestCaseAttribute("3", "33", null)]
+        [NUnit.Framework.TestCaseAttribute("3", "35", null)]
         [NUnit.Framework.TestCaseAttribute("0", "30", null)]
         [NUnit.Framework.TestCaseAttribute("-10", "20", null)]
         [NUnit.Framework.TestCaseAttribute("-50", "-20", null)]
